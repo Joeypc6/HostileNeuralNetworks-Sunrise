@@ -1,0 +1,34 @@
+summary = "Train data models on the mobs you fight, then simulate them to farm their drops without killing anything."
+description = """
+Train data models on the mobs you fight, then simulate those mobs in machines to farm their drops.
+
+A port of [Hostile Neural Networks](https://github.com/Shadows-of-Fire/Hostile-Neural-Networks) by Shadows_of_Fire to [Sunrise](https://playsunrise.net) (Minecraft Java 26.3), under the original's licence (MIT, in `LICENSE`). One native mod on Sunrise's mod API; the code is a rewrite that follows the original 7.0.0 release, and its textures, models, recipes and language files are the original's.
+
+What it does:
+
+- Attune a blank data model to a mob, carry it in a Deep Learner, and it learns from each kill, rising through the model tiers. The Deep Learner has its screen and its HUD.
+- The Simulation Chamber runs a model on energy and Prediction Matrices, turning out predictions and training the model further.
+- The Loot Fabricator turns a prediction into the drops you choose; the Fabrication Directive copies a choice from one fabricator to another.
+- The Data Center, a multiblock with input and output ports, runs many models at once.
+- Hoppers and pipes work with the machines, and the machines take energy from any mod that supplies it through Sunrise's energy capability.
+- Optional: JEI shows the Loot Fabricator's recipes, Jade shows the IO port's mode, and the `guideme` library adds the W guide (English and Spanish).
+- Works in multiplayer, LAN guests included.
+
+Differences from the original:
+
+- Screens and model icons show the mob's spawn egg instead of a drawn mob, and the Data Center does not draw its floating mobs.
+- The data models are built into the mod, so a datapack cannot add or change them.
+- No `/hostilenetworks` commands, no Curios slot, and the Deep Learner's HUD position is set in the config file.
+"""
+authors = ["Sunrise port: Joeypc6", "Shadows_of_Fire"]
+homepage = "https://github.com/Joeypc6/HostileNeuralNetworks-Sunrise"
+issues = "https://github.com/Joeypc6/HostileNeuralNetworks-Sunrise/issues"
+categories = ["technology", "mobs"]
+
+[[screenshots]]
+path = "page/1-simulation.png"
+caption = "The Simulation Chamber running a Self Aware zombie model."
+
+[[screenshots]]
+path = "page/2-fabricator.png"
+caption = "The Loot Fabricator with a zombie prediction's drops to choose from."

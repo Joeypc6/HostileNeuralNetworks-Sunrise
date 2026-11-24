@@ -1,0 +1,18 @@
+{
+  "title": "itemGroup.hostilenetworks",
+  "icon": "hostilenetworks:sim_chamber",
+  "items": [
+    "hostilenetworks:blank_data_model",
+    "hostilenetworks:prediction_matrix",
+    "hostilenetworks:overworld_prediction",
+    "hostilenetworks:nether_prediction",
+    "hostilenetworks:end_prediction",
+    "hostilenetworks:twilight_prediction",
+    "hostilenetworks:deep_learner",
+    "hostilenetworks:sim_chamber",
+    "hostilenetworks:loot_fabricator",
+    "hostilenetworks:data_center",
+    "hostilenetworks:data_center_io_port",
+    "hostilenetworks:fab_directive"
+  ]
+}

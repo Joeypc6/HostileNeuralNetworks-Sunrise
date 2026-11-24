@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "key": {
+    "B": "minecraft:black_stained_glass",
+    "I": "#c:ingots/iron",
+    "R": "minecraft:redstone_block"
+  },
+  "pattern": [
+    "IBI",
+    "BRB",
+    "IBI"
+  ],
+  "result": {
+    "id": "hostilenetworks:data_center_io_port"
+  }
+}

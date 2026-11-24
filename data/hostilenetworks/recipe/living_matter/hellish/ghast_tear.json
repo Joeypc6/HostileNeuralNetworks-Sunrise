@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "ingredients": [
+    "minecraft:spider_eye",
+    "minecraft:sugar",
+    "hostilenetworks:nether_prediction",
+    "hostilenetworks:nether_prediction"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:ghast_tear"
+  }
+}

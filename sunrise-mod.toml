@@ -1,0 +1,25 @@
+id = "hostilenetworks"
+name = "Hostile Neural Networks"
+version = "7.0.1"
+description = "Data models, simulation chambers, loot fabricators and data centers. A port of Hostile Neural Networks (Shadows_of_Fire, MIT) to Sunrise's mod API."
+authors = ["Sunrise port: Joeypc6", "Shadows_of_Fire"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
+license = "MIT"
+license_url = "https://github.com/Joeypc6/HostileNeuralNetworks-Sunrise/blob/main/LICENSE"
+credits = "Sunrise port by Joeypc6, based on Hostile Neural Networks by Shadows_of_Fire (Brennan Ward)."
+homepage = "https://github.com/Joeypc6/HostileNeuralNetworks-Sunrise"
+issues = "https://github.com/Joeypc6/HostileNeuralNetworks-Sunrise/issues"
+
+[native]
+game = "26.3"
+# Pinned to Sunrise Dev 2026-11-24 (f8aa80e).
+sunrise = "f8aa80e4c40cf1a5d30e85d13937f3fcf06d8237"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
+
+[dependencies]
+# The W guide's pages are files (assets/hostilenetworks/ae2guide) GuideME reads; the Loot Fabricator's JEI category.
+guideme = { version = "^0.1", optional = true }
+jei = { version = "^0.5", optional = true }
+jade = { version = "^26", optional = true }

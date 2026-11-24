@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "ingredients": [
+    "#minecraft:leaves",
+    "minecraft:dirt",
+    "hostilenetworks:overworld_prediction"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:short_grass"
+  }
+}

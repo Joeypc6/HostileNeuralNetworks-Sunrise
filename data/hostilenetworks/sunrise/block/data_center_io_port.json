@@ -1,0 +1,23 @@
+{
+  "template": "minecraft:iron_block",
+  "properties": {
+    "hardness": 5.0,
+    "explosion_resistance": 6000.0,
+    "sounds": "minecraft:stone",
+    "requires_tool": false
+  },
+  "state_properties": {
+    "mode": {
+      "type": "enum",
+      "values": [
+        "energy",
+        "models",
+        "inputs",
+        "outputs"
+      ]
+    }
+  },
+  "default_state": {
+    "mode": "energy"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "key": {
+    "C": "minecraft:comparator",
+    "E": "minecraft:ender_pearl",
+    "G": "#c:glass_panes",
+    "M": "#c:gems/lapis",
+    "O": "#c:obsidians"
+  },
+  "pattern": [
+    " G ",
+    "EOE",
+    "MCM"
+  ],
+  "result": {
+    "id": "hostilenetworks:sim_chamber"
+  }
+}

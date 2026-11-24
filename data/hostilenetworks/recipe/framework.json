@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "key": {
+    "C": "minecraft:clay_ball",
+    "D": "#c:dusts/redstone",
+    "I": "#c:ingots/gold",
+    "R": "minecraft:repeater",
+    "S": "minecraft:smooth_stone"
+  },
+  "pattern": [
+    "CRC",
+    "DSD",
+    "CIC"
+  ],
+  "result": {
+    "id": "hostilenetworks:blank_data_model"
+  }
+}

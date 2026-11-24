@@ -1,0 +1,25 @@
+{
+  "template": "minecraft:iron_block",
+  "properties": {
+    "hardness": 5.0,
+    "explosion_resistance": 6000.0,
+    "sounds": "minecraft:stone",
+    "light": 1,
+    "requires_tool": false,
+    "occludes": false
+  },
+  "state_properties": {
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ]
+    }
+  },
+  "default_state": {
+    "facing": "north"
+  }
+}

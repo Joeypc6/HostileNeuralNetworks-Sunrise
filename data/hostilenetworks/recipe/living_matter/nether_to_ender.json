@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "key": {
+    "E": "minecraft:end_stone",
+    "N": "hostilenetworks:nether_prediction"
+  },
+  "pattern": [
+    " N ",
+    "NEN",
+    " N "
+  ],
+  "result": {
+    "id": "hostilenetworks:end_prediction"
+  }
+}

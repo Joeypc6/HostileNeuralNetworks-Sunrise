@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "key": {
+    "E": "minecraft:echo_shard",
+    "L": "hostilenetworks:loot_fabricator",
+    "N": "minecraft:nether_star",
+    "O": "#c:obsidians",
+    "S": "hostilenetworks:sim_chamber"
+  },
+  "pattern": [
+    "ENE",
+    "SOL",
+    "OOO"
+  ],
+  "result": {
+    "id": "hostilenetworks:data_center"
+  }
+}

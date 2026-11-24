@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "key": {
+    "G": "#hostilenetworks:generalized_predictions",
+    "P": "minecraft:paper",
+    "R": "hostilenetworks:prediction_matrix"
+  },
+  "pattern": [
+    " G ",
+    "PRP",
+    " P "
+  ],
+  "result": {
+    "id": "hostilenetworks:fab_directive"
+  }
+}

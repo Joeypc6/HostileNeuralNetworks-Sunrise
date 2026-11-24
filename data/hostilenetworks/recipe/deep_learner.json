@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "key": {
+    "D": "#c:dusts/redstone",
+    "G": "#c:glass_panes",
+    "O": "#c:obsidians",
+    "R": "minecraft:repeater"
+  },
+  "pattern": [
+    "ORO",
+    "RGR",
+    "ODO"
+  ],
+  "result": {
+    "id": "hostilenetworks:deep_learner"
+  }
+}

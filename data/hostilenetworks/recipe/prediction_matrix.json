@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "key": {
+    "C": "minecraft:clay_ball",
+    "G": "#c:glass_panes",
+    "I": "#c:ingots/iron",
+    "N": "#c:ingots/gold"
+  },
+  "pattern": [
+    "IG ",
+    "GCG",
+    " GN"
+  ],
+  "result": {
+    "count": 16,
+    "id": "hostilenetworks:prediction_matrix"
+  }
+}

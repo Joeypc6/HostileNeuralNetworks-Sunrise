@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "ingredients": [
+    "hostilenetworks:end_prediction",
+    "minecraft:apple"
+  ],
+  "result": {
+    "id": "minecraft:chorus_fruit"
+  }
+}

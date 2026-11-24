@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hostilenetworks",
+  "ingredients": [
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:ender_pearl",
+    "hostilenetworks:end_prediction"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:end_stone"
+  }
+}
