@@ -1,6 +1,6 @@
 id = "hostilenetworks"
 name = "Hostile Neural Networks"
-version = "7.0.1"
+version = "7.0.2"
 description = "Data models, simulation chambers, loot fabricators and data centers. A port of Hostile Neural Networks (Shadows_of_Fire, MIT) to Sunrise's mod API."
 authors = ["Sunrise port: Joeypc6", "Shadows_of_Fire"]
 api = "0.2"
